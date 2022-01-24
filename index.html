@@ -18,9 +18,9 @@
             </div>
             
             <div class="container-lista">
-                <div  class="box-todo" v-for="lista in todo" :class="lista.done">
+                <div  class="box-todo" v-for="(lista,index) in todo" :class="lista.done">
                      {{lista.text}} 
-                     <span class="delete" @click="deleteEvent(lista)">x</span>
+                    <span class="delete" @click="deleteEvent(index)">x</span>
                 </div>
             </div>
             
