@@ -14,7 +14,7 @@
 
         <div class="container">
             <div class="new">
-                <input v-model="nuovoText" type="text" placeholder="aggiungi">
+                <input v-model="nuovoText" type="text" placeholder="aggiungi" @keyup.enter="aggiuntaTodo">
                 <button class="tasto" @click="aggiuntaTodo">Aggiungi</button>
             </div>
             

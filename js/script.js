@@ -28,7 +28,8 @@ new Vue({
                 done: 'true',      
             });
             this.nuovoText = ''
-        }
+        },
+        
     },
 });
 
