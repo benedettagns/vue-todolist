@@ -19,7 +19,7 @@ new Vue({
     },
     methods: {
         deleteEvent: function(index) {
-            this.todo.splice(index);
+            this.todo.splice(index,1);
         },
         
         aggiuntaTodo: function () {

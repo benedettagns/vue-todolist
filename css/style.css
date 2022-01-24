@@ -28,8 +28,8 @@ input {
 }
 
 .container-lista {
-    display: flex;
-    justify-content: center;
+    text-align: center;
+    line-height: 30px;
 }
 
 .container-lista div span {
@@ -40,8 +40,8 @@ input {
 .box-todo {
     background-color: whitesmoke;
     border: 1px solid whitesmoke;
-    border-radius: 10px;
-    margin: 10px 0;
+    border-radius: 20px;
+    margin: 10px 10px;
 }
 
 .true {
@@ -50,4 +50,4 @@ input {
 
 .delete {
     cursor: pointer;
-}
+} 
