@@ -19,7 +19,8 @@
             </div>
             
             <div class="container-lista">
-                <div  class="box-todo" v-for="(lista,index) in todo" :class="lista.done">
+                <div  class="box-todo" v-for="(lista,index) in todo" :class="lista.done"
+                @click="invertiDone(index)">
                      {{lista.text}} 
                     <span class="delete" @click="deleteEvent(index)">x</span>
                 </div>

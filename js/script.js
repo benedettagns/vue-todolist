@@ -30,6 +30,9 @@ new Vue({
             this.nuovoText = ''
         },
         
+        invertiDone: function (index){
+            this.todo[index].done = !this.todo[index].done
+        }
     },
 });
 

@@ -42,12 +42,14 @@ input {
     border: 1px solid whitesmoke;
     border-radius: 20px;
     margin: 10px 10px;
-}
-
-.true {
-    text-decoration: line-through;
+    cursor: pointer;
 }
 
 .delete {
     cursor: pointer;
 } 
+
+.true {
+    text-decoration: line-through;
+}
+
