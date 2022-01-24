@@ -15,19 +15,19 @@ new Vue({
                 done: 'false',
             },
         ],
-        nuovoText: [],
+        nuovoText: ''
     },
     methods: {
         deleteEvent: function(index) {
             this.todo.splice(index);
         },
         
-        aggiuntaTodo: function (nuovoText) {
+        aggiuntaTodo: function () {
             this.todo.push ({
-                text: '',
+                text: this.nuovoText,
                 done: 'true',      
             });
-            this.nuovoText= ''
+            this.nuovoText = ''
         }
     },
 });
